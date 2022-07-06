@@ -117,6 +117,10 @@ body {
     outline: none;
 }
 
+.amount-given input[type="text"]:focus {
+    border-bottom: 1px solid #FF5959;
+}
+
 .amount-given input[type="text"]::placeholder {
     color: #B3B3B3;
 }
