@@ -34,7 +34,8 @@ body {
     color: #ffffff;
 }
 
-a.donate-button {
+.donate-button,
+.amount-submitted input[type="button"] {
     text-decoration: none;
     color: #ffffff;
     padding: 10px 20px;
@@ -42,4 +43,98 @@ a.donate-button {
     border-radius: 5px;
     margin-top: 20px;
     display: inline-block;
+    border: 1px solid transparent;
+    font-size: 18px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.donate-button:hover,
+.amount-submitted input[type="button"]:hover {
+    background-color: #bd3535;
+    cursor: pointer;
+}
+
+.donate-today {
+    width: 60%;
+    margin: 5% 10%;
+    padding: 2% 10%;
+    text-align: center;
+}
+
+.heading-sub-text h3 {
+    font-family: 'Joan', serif;
+    font-size: 45px;
+    font-weight: bold;
+    color: #121212;
+    margin: 0;
+}
+
+.heading-sub-text p {
+    font-size: 18px;
+    color: #707070;
+}
+
+.amount-listed {
+    margin: 30px 0px;
+}
+
+.amount-listed input[type="button"] {
+    border: 1px solid transparent;
+    background-color: #FAFAFA;
+    padding: 30px;
+    cursor: pointer;
+    font-size: 30px;
+    color: #707070;
+    font-weight: bold;
+    border-radius: 5px;
+    text-decoration: none;
+    margin-left: 2%;
+}
+
+.amount-listed input[type="button"]:first-child {
+    margin-left: 0px;
+}
+
+.amount-listed input[type="button"]:hover {
+    background-color: #FFEEEE;
+    color: #FF5959;
+    border: 1px solid #FF5959;
+}
+
+.amount-given {
+    margin: 20px 0 0;
+}
+
+.amount-given input[type="text"] {
+    border: none;
+    border-bottom: 1px solid #DADADA;
+    display: inline;
+    text-align: center;
+    width: 90%;
+    margin: 0 5%;
+    padding: 15px 0;
+    font-size: 18px;
+    outline: none;
+}
+
+.amount-given input[type="text"]::placeholder {
+    color: #B3B3B3;
+}
+
+.donate-plan {
+    text-align: center;
+    margin: 20px 70px;
+}
+
+.donate-plan-boxes {
+    display: flex;
+}
+
+.half-width {
+    width: 33%;
+    margin-left: 5%;
+}
+
+.half-width:last-child {
+    margin-left: 0px;
 }
